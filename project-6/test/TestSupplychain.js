@@ -105,7 +105,7 @@ contract('SupplyChain', function(accounts) {
         
     }) 
 })   
-/*
+
     // 3rd Test
     it("Testing smart contract function packItem() that allows a farmer to pack coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
@@ -249,5 +249,5 @@ contract('SupplyChain', function(accounts) {
         
     })
 
-});
- */
+
+ 
