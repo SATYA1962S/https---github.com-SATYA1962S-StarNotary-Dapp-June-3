@@ -112,7 +112,7 @@ contract SupplyChain  is Ownable, ConsumerRole, DistributorRole,FarmerRole, Reta
   
   // Define a modifier that checks if an item.state of a upc is Packed
   modifier packed(uint _upc) {
- require(items[_upc].itemState == State.Paced,"Item is not in the Packed state.");
+ require(items[_upc].itemState == State.Packed,"Item is not in the Packed state.");
     _;
   }
 
@@ -168,7 +168,7 @@ contract SupplyChain  is Ownable, ConsumerRole, DistributorRole,FarmerRole, Reta
     // Add the new item as part of Harvest
     items[_upc].sku = sku;
      items[_upc].upc = upc;
-      items[_upc].ownerId = _originFarmerID;
+      items[_upc].ownerID = _originFarmerID;
        items[_upc].originFarmerID = _originFarmerID;
         items[_upc].originFarmName = _originFarmName;
          items[_upc].originFarmInformation = _originFarmInformation;
