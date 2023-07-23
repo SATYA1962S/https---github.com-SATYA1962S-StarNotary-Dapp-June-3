@@ -180,7 +180,7 @@ contract SupplyChain  is Ownable, ConsumerRole, DistributorRole,FarmerRole, Reta
     // Increment sku
     sku = sku + 1;
     // Emit the appropriate event
-    
+    emit Harvested(_upc);
   }
 
   // Define a function 'processtItem' that allows a farmer to mark an item 'Processed'

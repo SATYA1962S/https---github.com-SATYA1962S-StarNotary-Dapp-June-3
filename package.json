@@ -1,0 +1,24 @@
+{
+  "name": "nd1309-project-6b-example-template-master",
+  "version": "1.0.0",
+  "description": "This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SATYA1962S/https---github.com-SATYA1962S-StarNotary-Dapp-June-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SATYA1962S/https---github.com-SATYA1962S-StarNotary-Dapp-June-3/issues"
+  },
+  "homepage": "https://github.com/SATYA1962S/https---github.com-SATYA1962S-StarNotary-Dapp-June-3#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "truffle": "^4.1.14",
+    "truffle-assertions": "^0.9.2"
+  }
+}
