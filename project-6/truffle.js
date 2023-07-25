@@ -1,4 +1,4 @@
-var HDWalletProvider = require(" @truffle/hdwallet-provider");
+var HDWalletProvider = require("@truffle/hdwallet-provider");
 const  MNEMONIC  =  'dice jeans coach disorder acid mesh select alter language antique tone team';
 
 
@@ -11,11 +11,11 @@ module.exports = {
     },
     sepolia : {
       provider : function()  {
-        return new HDWalletProvider(MNEMONIC, "https ://sepolia.infura.io/ v3/817840b672544d658b7d2e4294a0ca58  ");
+        return new HDWalletProvider(MNEMONIC,"https://sepolia.infura.io/ v3/817840b672544d658b7d2e4294a0ca58");
       },
 
-      network_id : "*",
-      gas : 4000000
+      network_id : "11155111",
+      gas : 4465030
     }
   }
 };
