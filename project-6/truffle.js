@@ -11,10 +11,11 @@ module.exports = {
     },
     sepolia : {
       provider : function()  {
-        return new HDWalletProvider(MNEMONIC,"https://sepolia.infura.io/ v3/817840b672544d658b7d2e4294a0ca58");
+        return new HDWalletProvider(MNEMONIC,"https://sepolia.infura.io/v3/a54e751d4d0a4337a5c9fe1cd85fa62e");
       },
 
       network_id : "11155111",
+      gasPrice : 596180145,
       gas : 4465030
     }
   }
