@@ -3,7 +3,6 @@ pragma solidity ^0.4.24;
 import  "../coffeecore/Ownable.sol";
 
 import  "../coffeeaccesscontrol/ConsumerRole.sol";
-QmV82N4BgiCCSb8jGCedrBXhaQvNF5p6ed8LRL96mCnhuR
 import  "../coffeeaccesscontrol/DistributorRole.sol";
 
 import  "../coffeeaccesscontrol/FarmerRole.sol";
