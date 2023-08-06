@@ -1,5 +1,6 @@
-var HDWalletProvider = require("@truffle/hdwallet-provider");
-const  MNEMONIC  =  'dice jeans coach disorder acid mesh select alter language antique tone team';
+
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+var  MNEMONIC  = 'dice jeans coach disorder acid mesh select alter language antique tone team';
 
 
 module.exports = {
