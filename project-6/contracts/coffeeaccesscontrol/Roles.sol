@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /**
- * @title Roles
+ * @title Roles has been implemented
  * @dev Library for managing addresses assigned to a Role.
  */
 library Roles {
