@@ -11,10 +11,11 @@ import  "../coffeeaccesscontrol/RetailerRole.sol";
 
 contract SupplyChain  is Ownable, ConsumerRole, DistributorRole,FarmerRole, RetailerRole{
 
-  // Define 'owner'
-  address owner;
+  //Define  'owner'
 
-  // Define a variable called 'upc' for Universal Product Code (UPC)
+  address  owner;
+
+// Define a variable called 'upc' for Universal Product Code (UPC)
   uint  upc;
 
   // Define a variable called 'sku' for Stock Keeping Unit (SKU)
@@ -71,7 +72,7 @@ contract SupplyChain  is Ownable, ConsumerRole, DistributorRole,FarmerRole, Reta
   event Received(uint upc);
   event Purchased(uint upc);
 
-  // Define a modifer that checks to see if msg.sender == owner of the contract
+    // Define a modifer that checks to see if msg.sender == owner of the contract
   modifier onlyOwner() {
     require(msg.sender == owner);
     _;
