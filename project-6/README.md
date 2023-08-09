@@ -3,6 +3,119 @@
 
       Truffle Version   :  v4.1.14
 
+      Why was truffle  adopted?
+
+             I used truffle@4.1.14. This version is a truffle suite.
+
+  Truffle and truffle@4.1.14 has been used for this smart contract
+
+  because this is the most popular widely used development framework 
+
+  and tool for etherium platform which supports solidity language 
+
+  solidity compiler for the version of solidity I used and javascript 
+
+  language which I used for testing the smart contract.It is also
+
+  used in migration of the smart contract.It supported ganache and
+
+  web3 .
+
+           Truly it performed as per say that it is a world class
+
+   development framework , testing framework and assetpipeline
+
+   for blockchain using solidity compiler and Etherium virtual
+
+   machine.
+
+         In my case truffle did develop by using command
+
+    truffle develop  and compiled my code using compiler
+
+    and giving me me artifacts which were then used in testing of 
+
+    the smart contract and helped in migration of the  smart
+
+    contract.
+
+         Though there were some glitches in either infura
+
+     or somewhere in truffle so, I couldn't use sepolia
+
+     testnetwork in deployment of my smart contract.
+        
+          This way , I am quite thankful to truffle
+
+     suite developers who provided me an opportunity  to develop
+
+     ,compile, test and deploy on private network.
+
+     Why was web3.js adopted?
+
+
+               Web3.js helped me to interact with my frontend . It
+
+      helped me build  bridge  between my constructor state accounts        
+
+      address to the frontend and to other account addresses  and hence 
+      
+       in deployment of smart
+
+      contract to the sepolia test network in remixIde.Without it
+
+      I couldn't not have seployed my smart contact on sepolia test 
+
+      network and couldn't have tested the functionality without it.
+
+      Furthermore ,it provided me connection with different call 
+      
+      functions .
+
+              All these management of different states of smart 
+
+       contracts using abi's are done with the help of web3 .
+
+       It not only helps us in interacting with frontend but 
+
+       backend through use of metamask but also does it in a 
+
+       distributed and secured manner.
+
+       Why did I use truffle-assertions ?
+
+            I have used truffle-assertions because it helped 
+
+      because it me in testing of smart contract functions. It
+
+      helped me in create  a  transaction result object  from a contract
+
+      instance  and a transaction hash . THe transaction hash which 
+
+      then used by me in implementation of other functions to test.
+
+      Why did I use truffle HD provider ?
+
+            HD-wallet  enabled  web3 provider have  been  used  in 
+
+       my  dapp project to sign transactions  for  addresses  derived 
+
+       from a 12 word mnemonic. It has been used to store the digital
+
+       keys for fake ethers in my metamask.
+
+       Why did I use lite-server?
+
+             I have aded dev-dependency  lite-server - a library to
+
+       serve a web application , and opens the web on the browser .
+
+                   
+
+
+
+
+
       Node  Version     :  v10.13.0 
 
       npm   Version     :   v6.4.1 
@@ -133,6 +246,66 @@ Project Requirement :
  project-6 ipfs hash is as below:
 
  QmV82N4BgiCCSb8jGCedrBXhaQvNF5p6ed8LRL96mCnhuR
+
+
+ Steps on how to run the dapp :-
+
+
+           In a seperate terminal window I launched the dapp  using
  
+  command npm run dev . I immediately got localhost:3000  running on my
+
+  chrome browser and my html page with buttons and forms displayed.
+
+  This html page is linked to my smartcontract app.js and truffle-contract.js.
+
+          So, in order to get the information recorded on blockchain is essential
+
+  for a customer to get proof of the coffee palette he is going to buy.To do
+
+  this he has to use his metamask etherium address in FAIR TRADE DEAL form
+
+  Product Overview  table first and use his address and item sku in this
+
+  case:1 and upc:1 , On putting button on FETCH DATA1 and confirming the transaction 
+
+  after elapse of some time he gets all the information obout the product details
+
+  in product deatails section of the app.He pays for this transaction from his 
+
+ RECEIVE and PURCHASE of Retailer using metamask and his address for transaction.
+
+
+         Similarly  FARMER can get hold of the relevant information which he has
+
+  to the blockchain using button HARVEST,PROCESS,PACK and FORSALE authenticated by
+
+  approver using his metamask and address .
+
+          Similarly  Distributor gets hold of all informaion about Farmer activities
+
+  and upon satisfaction he pays and buys and ships.
+
+          Similarly Retailer Receive Item only after getting all the proofs about
+
+   activities of Farmer and Distributor.
+
+         Finaly consumer checks all the activities and buys the coffee plattele of
+
+   his choice upon being satisfied with role of FARMER,DISTRIBUTOR and RETAILER
+
+   and pays for the product he receives.
+
+
+
+   Notes on two changes to be made in SupplyChain.sol:
+
+         Franly speaking I am getting error when I remove the two
+
+   omissions as suggested by you.So, I have left them as it is.                                                        
+
+
+
+                          
 
 
